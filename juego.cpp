@@ -6,9 +6,9 @@ Juego::Juego(QWidget *parent)
     , ui(new Ui::Juego)
 {
     ui->setupUi(this);
-    mImagen = new QImage(this->size(),QImage::Format_ARGB32_Premultiplied);
-    mImagen->fill(Qt::white);
-    mPainter = new QPainter(mImagen);
+    miImagen = new QImage(this->size(),QImage::Format_ARGB32_Premultiplied);
+    miImagen->fill(Qt::white);
+    mPainter = new QPainter(miImagen);
     mPainter->setRenderHint(QPainter::Antialiasing);
 
     QPainter painter();
@@ -33,7 +33,7 @@ void Juego::paintEvent(QPaintEvent *event)
 {
     QPainter painter(this);
     // Dibujar la imagen
-    painter.drawImage(100, 50, *mImagen);
+    painter.drawImage(100, 50, *miImagen);
 }
 
 

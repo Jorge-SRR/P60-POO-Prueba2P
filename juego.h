@@ -11,7 +11,7 @@
 #include <QMessageBox>
 #include <QImage>
 #include <QMainWindow>
-#include <iomanip>
+//#include <iomanip>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Juego; }
@@ -44,7 +44,7 @@ private:
     Ui::Juego *ui;
     Circulo *m_circulo;
     void dibujar();
-    QImage *mImagen;        // Imagen sobre la que se va a dibujar
+    QImage *miImagen;
     QPainter *mPainter;
 };
 #endif // JUEGO_H
