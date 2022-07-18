@@ -11,7 +11,6 @@
 #include <QMessageBox>
 #include <QImage>
 #include <QMainWindow>
-//#include <iomanip>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Juego; }
@@ -39,6 +38,9 @@ private slots:
     void on_actionConfigraci0n_triggered();
 
     void on_actionSalir_triggered();
+
+    void on_marco_customContextMenuRequested(const QPoint &pos);
+
 
 private:
     Ui::Juego *ui;

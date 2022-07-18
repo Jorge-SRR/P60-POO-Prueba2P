@@ -50,10 +50,12 @@ int Configuracion::dimension() const
 }
 
 
-void Configuracion::on_btnColor_clicked()
+void Configuracion::on_inDimension_sliderMoved(int position)
 {
-    m_color = QColorDialog::getColor(m_color,
-                                    this,
-                                    "Color del pincel");
+    ui->inDimension->value();
 }
+void Configuracion::on_inDimension_sliderReleased(){
+
+}
+
 

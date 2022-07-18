@@ -25,7 +25,9 @@ public:
 private slots:
     void on_btnColor_released();
 
-    void on_btnColor_clicked();
+    void on_inDimension_sliderMoved(int position);
+
+    void on_inDimension_sliderReleased();
 
 private:
     Ui::Configuracion *ui;
