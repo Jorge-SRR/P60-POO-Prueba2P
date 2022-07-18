@@ -9,9 +9,9 @@
 
 class Circulo : public QPoint
 {
-    int posx;
-    int posy;
-    int size;
+    int anchx;
+    int anchy;
+    int talla;
 public:
     Circulo();
     Circulo(int xpos, int ypos, int size);

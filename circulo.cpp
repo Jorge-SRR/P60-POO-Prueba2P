@@ -2,45 +2,45 @@
 
 int Circulo::getTalla() const
 {
-    return size;
+    return talla;
 }
 
 void Circulo::setTalla(int value)
 {
-    size = value;
+    talla = value;
 }
 
 int Circulo::getAncho() const
 {
-    return posy;
+    return anchy;
 }
 
 void Circulo::setAncho(int value)
 {
-    posy = value;
+    anchy = value;
 }
 
 int Circulo::getAnchx() const
 {
-    return posx;
+    return anchx;
 }
 
 void Circulo::setAnchx(int value)
 {
-    posx = value;
+    anchx = value;
 }
 
 Circulo::Circulo()
 {
-    posy=50;
-    posx=20;
-    size=100;
+    anchy=50;
+    anchx=20;
+    talla=100;
 }
 
 Circulo::Circulo(int xpos, int ypos, int size)
 {
-    this->posx=xpos;
-    this->posy=ypos;
-    this->size=size;
+    this->anchx=xpos;
+    this->anchy=ypos;
+    this->talla=size;
 }
 
