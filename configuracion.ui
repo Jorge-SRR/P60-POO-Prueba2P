@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>300</width>
-    <height>200</height>
+    <width>469</width>
+    <height>300</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -53,6 +53,8 @@
        </widget>
       </item>
      </layout>
+     <zorder>btnColor</zorder>
+     <zorder>wigetColor</zorder>
     </widget>
    </item>
    <item>

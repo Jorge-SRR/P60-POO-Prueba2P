@@ -38,7 +38,6 @@ void Configuracion::setWidgetColor()
     QString style = "background-color: rgb(" + QString::number(r) + ", " + QString::number(g) + ", " + QString::number(b) + ")";
     ui->wigetColor->setStyleSheet(style);
 }
-
 const QColor &Configuracion::color() const
 {
     return m_color;
